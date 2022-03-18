@@ -4,7 +4,6 @@ jobs:
   build:
     working_directory: /loquesea
     docker:
-      #- image: docker:17.05.0-ce-git
       - image: docker:18.09.8-ce-git
     steps:
       - checkout
